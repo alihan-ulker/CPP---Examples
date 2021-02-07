@@ -16,7 +16,6 @@ x:
     if ((sayi1 == sayi2) || (sayi1 == sayi3) || (sayi2 == sayi3))
         goto x;
     cout << "<1-9> arasi uc sayi tuttum.Tahmin et." << endl;
-    cout << sayi1 << sayi2 << sayi3 << endl;
 
     while (sayi1 == x || sayi2 == x || sayi3 == x)
         ;
