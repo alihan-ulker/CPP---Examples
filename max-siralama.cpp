@@ -1,4 +1,4 @@
-//Girilen 3 grup arasinda max degerleri bulup buyukten kucuge siralar
+//Girilen 10 elemanli 3 dizi grubu arasinda max degerleri bulup buyukten kucuge dogru siralar
 #include <iostream>
 using namespace std;
 
@@ -15,17 +15,19 @@ void Find_Max()
 
     int i = 0;
 
-    cout << "Enter First Group" << endl;
+    cout << "10'ar elemanli 3 adet sayi dizisi giriniz" << endl;
+    
+    cout << "Ilk grubu giriniz" << endl;
 
     for (i = 0; i < 10; i++)
         cin >> a[i];
 
-    cout << "Enter Second Group" << endl;
+    cout << "2. grubu giriniz" << endl;
 
     for (i = 0; i < 10; i++)
         cin >> b[i];
 
-    cout << "Enter Third Group" << endl;
+    cout << "3. grubu giriniz" << endl;
 
     for (i = 0; i < 10; i++)
         cin >> c[i];
